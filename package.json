@@ -1,15 +1,17 @@
 {
   "name": "create-next-example-app",
   "scripts": {
-    "dev": "next",
-    "build": "next build",
-    "start": "next start"
+    "dev": "nodemon server/index.js"
   },
   "dependencies": {
     "@zeit/next-sass": "^1.0.1",
-    "next": "8.0.4",
+    "express": "^4.16.4",
+    "next": "^8.0.4",
     "node-sass": "^4.11.0",
-    "react": "16.8.6",
-    "react-dom": "16.8.6"
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.5.1"
   }
 }
